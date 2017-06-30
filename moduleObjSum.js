@@ -1,5 +1,5 @@
 var sum = require("./requiringModules");
 
-console.log(sum.a, sum.b);  // log a Number
+console.log(sum.a, sum.b);  // sum two num key-values
 
-sum.sum();  // invokes the function `explain`
+sum.sum();  // invokes the function `sum`
